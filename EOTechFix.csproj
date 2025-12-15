@@ -146,6 +146,40 @@
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\0Harmony.dll" />
+    <Content Include="libs\0Harmony20.dll" />
+    <Content Include="libs\Assembly-CSharp-firstpass.dll" />
+    <Content Include="libs\Assembly-CSharp.dll" />
+    <Content Include="libs\BepInEx.dll" />
+    <Content Include="libs\BepInEx.Harmony.dll" />
+    <Content Include="libs\BepInEx.Preloader.dll" />
+    <Content Include="libs\Comfort.dll" />
+    <Content Include="libs\Comfort.Unity.dll" />
+    <Content Include="libs\HarmonyXInterop.dll" />
+    <Content Include="libs\Mono.Cecil.dll" />
+    <Content Include="libs\Mono.Cecil.Mdb.dll" />
+    <Content Include="libs\Mono.Cecil.Pdb.dll" />
+    <Content Include="libs\Mono.Cecil.Rocks.dll" />
+    <Content Include="libs\MonoMod.RuntimeDetour.dll" />
+    <Content Include="libs\MonoMod.Utils.dll" />
+    <Content Include="libs\Newtonsoft.Json.dll" />
+    <Content Include="libs\Sirenix.Serialization.dll" />
+    <Content Include="libs\spt-common.dll" />
+    <Content Include="libs\spt-core.dll" />
+    <Content Include="libs\spt-custom.dll" />
+    <Content Include="libs\spt-debugging.dll" />
+    <Content Include="libs\spt-reflection.dll" />
+    <Content Include="libs\spt-singleplayer.dll" />
+    <Content Include="libs\UnityEngine.AssetBundleModule.dll" />
+    <Content Include="libs\UnityEngine.CoreModule.dll" />
+    <Content Include="libs\UnityEngine.dll" />
+    <Content Include="libs\UnityEngine.IMGUIModule.dll" />
+    <Content Include="libs\UnityEngine.InputLegacyModule.dll" />
+    <Content Include="libs\UnityEngine.PhysicsModule.dll" />
+    <Content Include="libs\UnityEngine.TextRenderingModule.dll" />
+    <Content Include="libs\UnityEngine.UI.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
