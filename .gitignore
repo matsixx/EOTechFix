@@ -361,3 +361,35 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/libs/0Harmony.dll
+/libs/0Harmony20.dll
+/libs/Assembly-CSharp-firstpass.dll
+/libs/Assembly-CSharp.dll
+/libs/BepInEx.dll
+/libs/BepInEx.Harmony.dll
+/libs/BepInEx.Preloader.dll
+/libs/Comfort.dll
+/libs/Comfort.Unity.dll
+/libs/HarmonyXInterop.dll
+/libs/Mono.Cecil.dll
+/libs/Mono.Cecil.Mdb.dll
+/libs/Mono.Cecil.Pdb.dll
+/libs/Mono.Cecil.Rocks.dll
+/libs/MonoMod.RuntimeDetour.dll
+/libs/MonoMod.Utils.dll
+/libs/Newtonsoft.Json.dll
+/libs/Sirenix.Serialization.dll
+/libs/spt-common.dll
+/libs/spt-core.dll
+/libs/spt-custom.dll
+/libs/spt-debugging.dll
+/libs/spt-reflection.dll
+/libs/spt-singleplayer.dll
+/libs/UnityEngine.AssetBundleModule.dll
+/libs/UnityEngine.CoreModule.dll
+/libs/UnityEngine.dll
+/libs/UnityEngine.IMGUIModule.dll
+/libs/UnityEngine.InputLegacyModule.dll
+/libs/UnityEngine.PhysicsModule.dll
+/libs/UnityEngine.TextRenderingModule.dll
+/libs/UnityEngine.UI.dll
