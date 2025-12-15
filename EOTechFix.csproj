@@ -142,7 +142,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Patches\EOTechFix.cs" />
+    <Compile Include="Patches\EOTechFixer.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -179,6 +179,9 @@
     <Content Include="libs\UnityEngine.PhysicsModule.dll" />
     <Content Include="libs\UnityEngine.TextRenderingModule.dll" />
     <Content Include="libs\UnityEngine.UI.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -1,7 +1,9 @@
-SPTVRAMCleaner
+
+EOTech Fix
 
 ================
 
-Have you ever wanted to play SPT at 12k resolution but your VRAM keeps maxing out?
-
-Well, now you can! No not really, but this mod should help clear up about 1-2GB of VRAM. There will be a small lag spike right after the raid start countdown finishes.
+This mod's aim is to fix the long running bug with EOTech sight inaccuracy. People have complained about issues with sight accuracy in Tarkov for a long time. This mod adjusts a value in the material
+which appears to be the cause of this inaccuracy. Basically, back before I was working on the VR mod, I noticed an issue I brought up to the original developer about the EOTech sight being totally inaccurate
+unless you were looking directly down the middle of the sight. We found that this was caused by the "MarkScale" value when it's set to anything other than 1. This mod effectively adjusts MarkScale to always be 1
+and adjusts another value "MarkShift" to adjust the crosshair to be in the correct spot.
