@@ -14,8 +14,6 @@ namespace EOTechFix.Patches
 {
     internal class EOTechFixer : ModulePatch
     {
-        public static bool cleanerRan = false;
-
         protected override MethodBase GetTargetMethod()
         {
             return AccessTools.Method(typeof(CollimatorSight), nameof(CollimatorSight.OnEnable));
