@@ -12,7 +12,7 @@ using System.Reflection;
 
 namespace EOTechFix
 {
-    [BepInPlugin("com.matsix.eotechfix", "EOTechFix-matsix", "1.0.1")]
+    [BepInPlugin("com.matsix.eotechfix", "EOTechFix-matsix", "1.0.2")]
     public class Plugin : BaseUnityPlugin
     {
 
